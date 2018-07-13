@@ -42,3 +42,18 @@ a{
 	vertical-align: middle
 }
 
+.logo {
+	width:970px;
+	height: 98px;
+	margin: 0px auto;
+}
+
+.logo_l{
+	width:200px;
+	height: 55px;
+	background : url(../image/sprite.png) -20px 0px;
+	display : inline-block;
+	text-indent: -1000em;
+	margin : 24px 0 19px 9px;
+}
+
