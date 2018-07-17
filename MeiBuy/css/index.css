@@ -161,5 +161,65 @@ a{
 .message {
 	width: 230px;
 	height: 210px;
-	background-color: red;
 }
+
+.message_top{
+	height : 95px;
+	border: 1px solid #DDDDDD;
+	background-color : #F7FAFF;
+	margin-bottom: 21px;
+}
+
+
+.message_top .fw {
+	font-size : 15px;
+	font-weight:  bold;
+	padding :7px 0 0 18px;
+}
+.message_top span {
+	display : inline-block;
+	width : 40px;
+	height : 40px;
+	background :url(../image/sprite.png) -250px 0;
+	margin : 20px 10px 0 10px;
+}
+
+.message_top p[class~="cheap"]{
+	margin-top : 25px;
+} 
+
+.message_bottom{
+	height: 92px;
+	background: #F7F7F7;
+}
+
+.message_bottom .find_message{
+	text-align: center;
+	font-size: 15px;
+	padding-top: 11px;
+}
+
+.message_bottom .phone{
+	margin-top: 10px;
+	text-align: center;
+	font-size : 15px;
+	color: #3F9CE0;
+}
+
+.message_bottom .phone span{
+	display : inline-block;
+	width: 14px;
+	height: 17px;
+	background : url(../image/sprite.png) -225px -30px;
+	vertical-align: middle;
+}
+
+.message_bottom input {
+	width: 81px;
+	height: 23px;
+	background: url(../image/sprite.png) -295px 0;
+	margin-top: 9px;
+	margin-left: 75px;
+}
+
+
