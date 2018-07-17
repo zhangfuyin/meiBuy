@@ -111,15 +111,45 @@ a{
 	width: 970px;
 	height : 210px;
 	margin : 0px auto;
-	background-color: pink;
 	margin-top: 10px;	
 }
 
 .subNav{
 	width: 200px;
 	height: 210px;
-	background-color: blue;
 	margin-right: 10px;
+}
+
+.subNav h2{
+	background-color:  #0266A3;
+	font-size: 16px;
+	color ：white;
+	font-weight: bold;
+	line-height: 30px;
+	padding-left : 20px;
+}
+
+.subNav li span {
+	display :inline-block;
+	width : 15px;
+	height : 13px;
+	background: url(../image/sprite.png) -225px 0;
+	
+}
+
+.subNav ul li{
+	padding-top: 11px;
+	margin-left : 9px;
+	font-size: 15px;
+}
+
+.subNav li a {
+	padding-left : 15px;
+}
+
+.subNav ul {
+	background-color:  #EBF0F6;
+	height: 180px;
 }
 
 .ad{
